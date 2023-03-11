@@ -1,0 +1,69 @@
+/*  App.css  */
+table {  
+  border-collapse: collapse;
+  width: 72%;
+  /* margin: 66px; */
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+th, td {
+  text-align: center;
+  padding: 4px;
+  border: 1px solid #4cf25a;
+  font-size: 13px;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  /* text-align: -internal-center; */
+}
+
+tr:nth-child(even) {
+  background-color: #ad25c893;
+}
+tr:hover {
+  background-color: #F2C94C;
+  color: #F2C94C;
+}
+tr {
+  transition: opacity 0.5s ease-in-out;
+}
+
+tr:hover {
+  opacity: 1.7;
+}
+tr {
+  animation: slide-in 0.5s ease-in-out;
+}
+*{
+  background-color: honeydew;
+}
+
+.App{
+    text-align: center;
+}
+input[type="text" i] {
+  height: 36px;
+  width: 32%;
+  font-size: medium;
+  font-weight: bold;
+  
+}
+
+input[type="text" i]:hover {
+  background-color: rgb(214, 221, 221); 
+  
+  opacity: 0.5;
+}
+header{
+  background-image: url('C:\Users\harsh\OneDrive\Desktop\MYEXPSERVER\kitera-dent-0CDogO-dEEE-unsplash.jpg');
+}

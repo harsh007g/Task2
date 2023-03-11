@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('C:\Users\harsh\OneDrive\Desktop\MYEXPSERVER\kitera-dent-0CDogO-dEEE-unsplash.jpg');
+  background: #E55D87;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(-45deg, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(-45deg, #5FC3E4, #3ca55c
+            , #E55D87, #e5e5be,#23074d, #cc5333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            background-size: 200% 100%;
+            height: 100vh;
+            position: relative;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            
+
+            animation: gradient 10s linear infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2{
+  text-align: center;
+  opacity: 0.5;
+}
+img{
+  width: 10%;
+}
+
